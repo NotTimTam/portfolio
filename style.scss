@@ -199,3 +199,71 @@ a {
         }
     }
 }
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background: none;
+    z-index: 1;
+
+    #resume-drop {
+        padding-left: 15px;
+        transition: all 0.4s;
+        overflow: hidden;
+        max-height: min-content;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 5px;
+    }
+    
+    li {
+        width: 48px;
+        height: 48px;
+        box-sizing: border-box;
+        
+        max-width: max-content;
+        overflow: hidden;
+        border-radius: 4em;
+        background-color: none;
+        word-wrap: no-wrap;
+
+        transition: all 2s;
+
+        &:hover {
+            background-color: #fff;
+        }
+
+        a {
+            display: block;
+            width: max-content;
+
+            .icon {
+                width: 28px;
+                height: 28px;
+                display: inline-block;
+                margin: 10px;
+            }
+        }
+
+        p {
+            display: inline-block;
+            width: max-content;
+            padding: 10px;
+            padding-left: 0px;
+            padding-right: 15px;
+        }
+
+        transition: all 0.5s;
+
+        &:hover {
+            width: 250px;
+        }
+    }
+}
+
+#skills {
+    margin-top: 10px;
+}

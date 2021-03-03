@@ -202,4 +202,82 @@ a:hover {
   background: hotpink;
   border: 2px solid orange;
 }
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  background: none;
+  z-index: 1;
+}
+
+.sidebar #resume-drop {
+  padding-left: 15px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  overflow: hidden;
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.sidebar li {
+  width: 48px;
+  height: 48px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  overflow: hidden;
+  border-radius: 4em;
+  background-color: none;
+  word-wrap: no-wrap;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sidebar li:hover {
+  background-color: #fff;
+}
+
+.sidebar li a {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.sidebar li a .icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.sidebar li p {
+  display: inline-block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+.sidebar li:hover {
+  width: 250px;
+}
+
+#skills {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
