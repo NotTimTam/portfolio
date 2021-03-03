@@ -194,7 +194,7 @@ a {
             border-radius: 50px;
             left: -9px;
             top: 0;
-            background: $secondary-color;
+            background: #000;
             border: 2px solid $primary-color;
         }
     }
@@ -266,4 +266,57 @@ a {
 
 #skills {
     margin-top: 10px;
+}
+
+// projects
+.projects {
+    margin-bottom: 32px;
+
+    .projects-title {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .projects-item {
+        padding: 0 0 20px 20px;
+        margin-top: -2px;
+        border-left: 2px solid $primary-color;
+        position: relative;
+
+        h4 {
+            line-height: 18px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: sans-serif;
+            color: $primary-color;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+            
+            li {
+                padding-bottom: 0;
+            }
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-radius: 50px;
+            left: -9px;
+            top: 0;
+            background: #000;
+            border: 2px solid $primary-color;
+        }
+    }
 }

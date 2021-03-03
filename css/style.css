@@ -199,7 +199,7 @@ a:hover {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: hotpink;
+  background: #000;
   border: 2px solid orange;
 }
 
@@ -279,5 +279,57 @@ a:hover {
 
 #skills {
   margin-top: 10px;
+}
+
+.projects {
+  margin-bottom: 32px;
+}
+
+.projects .projects-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.projects .projects-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid orange;
+  position: relative;
+}
+
+.projects .projects-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.projects .projects-item ul {
+  padding-left: 20px;
+}
+
+.projects .projects-item ul li {
+  padding-bottom: 0;
+}
+
+.projects .projects-item:last-child {
+  padding-bottom: 0;
+}
+
+.projects .projects-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #000;
+  border: 2px solid orange;
 }
 /*# sourceMappingURL=style.css.map */
