@@ -546,4 +546,25 @@ a:hover {
   background: #000;
   border: 2px solid orange;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(hotpink));
+  background: linear-gradient(to bottom, orange, hotpink);
+}
 /*# sourceMappingURL=style.css.map */
