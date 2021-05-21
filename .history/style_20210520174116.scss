@@ -46,12 +46,9 @@ a {
 	user-select: none;
 
 	.me-image {
-		width: 128px;
-		height: 128px;
-		border-radius: 8em;
-		border: 5px solid white;
-
-		margin-bottom: 20px;
+		width: 64px;
+		height: 64px;
+		border-radius: 3em;
 
 		background: url(me.jpg) top left;
 		background-size: cover;
@@ -338,14 +335,8 @@ body {
 					color: $primary-color;
 				}
 				p {
-					font-size: 12px;
+					font-size: 14px;
 					margin: 0;
-
-					background-color: #000000cc;
-
-					padding: 5px;
-
-					border-radius: 0.5em;
 
 					font-weight: 800;
 

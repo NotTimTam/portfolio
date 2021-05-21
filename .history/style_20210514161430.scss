@@ -45,18 +45,6 @@ a {
 
 	user-select: none;
 
-	.me-image {
-		width: 128px;
-		height: 128px;
-		border-radius: 8em;
-		border: 5px solid white;
-
-		margin-bottom: 20px;
-
-		background: url(me.jpg) top left;
-		background-size: cover;
-	}
-
 	&::before {
 		content: "";
 		background: rgba(0, 0, 0, 0.65);
@@ -335,21 +323,15 @@ body {
 					text-transform: uppercase;
 					font-weight: 600;
 
-					color: $primary-color;
+					color: rgb(0, 255, 255);
+					mix-blend-mode: difference;
 				}
 				p {
 					font-size: 12px;
 					margin: 0;
 
-					background-color: #000000cc;
-
-					padding: 5px;
-
-					border-radius: 0.5em;
-
-					font-weight: 800;
-
-					color: $secondary-color;
+					color: rgb(0, 255, 255);
+					mix-blend-mode: difference;
 				}
 
 				width: 50%;
