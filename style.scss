@@ -45,6 +45,18 @@ a {
 
 	user-select: none;
 
+	.me-image {
+		width: 128px;
+		height: 128px;
+		border-radius: 8em;
+		border: 5px solid white;
+
+		margin-bottom: 20px;
+
+		background: url(me.jpg) top left;
+		background-size: cover;
+	}
+
 	&::before {
 		content: "";
 		background: rgba(0, 0, 0, 0.65);
@@ -323,15 +335,15 @@ body {
 					text-transform: uppercase;
 					font-weight: 600;
 
-					color: rgb(0, 255, 255);
-					mix-blend-mode: difference;
+					color: $primary-color;
 				}
 				p {
 					font-size: 12px;
 					margin: 0;
 
-					color: rgb(0, 255, 255);
-					mix-blend-mode: difference;
+					font-weight: 800;
+
+					color: $secondary-color;
 				}
 
 				width: 50%;
